@@ -6,9 +6,9 @@ except ImportError:
 setup(
     name='Wrapper',
     packages=['wrapper'],
-    version='0.1',
+    version='1.0.0',
     license="GPL",
-    description='Random API Wrappers',
+    description='A wrapper around several APIs.',
     author='Biwin John',
     author_email='biwinjohn@gmail.com',
     url='https://github.com/biwin/wrapper',
