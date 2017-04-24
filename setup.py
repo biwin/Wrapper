@@ -8,7 +8,23 @@ setup(
     packages=['wrapper'],
     version='1.0.0',
     license="GPL",
-    description='A wrapper around several APIs.',
+    description='''
+    
+    A wrapper around several APIs.
+    
+    Response is a request object, which is much extendable for custom error handling.
+    
+    The Available APIs are:
+    
+        EANData
+        Locu
+        Spoonacular
+        Walmart
+        Zomato
+
+    
+    
+    ''',
     author='Biwin John',
     author_email='biwinjohn@gmail.com',
     url='https://github.com/biwin/wrapper',
