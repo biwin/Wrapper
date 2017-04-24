@@ -14,7 +14,7 @@ setup(
     url='https://github.com/biwin/wrapper',
     download_url='https://github.com/biwin/wrapper/archive/0.1.tar.gz',
     install_requires=[],
-    requires=['requests'],
+    requires=['requests', 'barcodenumber'],
     keywords=['api', 'python'],
     classifiers=[],
 )
