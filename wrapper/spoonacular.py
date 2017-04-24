@@ -3,7 +3,7 @@ import urllib
 from .core import BaseWrapper
 
 
-class SpoonacularAPIMachine(BaseWrapper):
+class SpoonacularAPIWrapper(BaseWrapper):
 
     def __init__(self, api_key):
         self.api_endpoint = "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/"

@@ -2,7 +2,7 @@ from .core import BaseWrapper
 import barcodenumber
 
 
-class EANDataService(BaseWrapper):
+class EANDataAPIWrapper(BaseWrapper):
     """ 
     Use EANdata.com's API to parse Barcode data
     URL_EXAMPLE: http://eandata.com/feed/?v=3&keycode=<your key code >&mode=json&find=<ean code>
