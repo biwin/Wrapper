@@ -6,7 +6,7 @@ except ImportError:
 setup(
     name='Wrapper',
     packages=['wrapper'],
-    version='1.0.1',
+    version='1.1.0-beta.1',
     license="GPL",
     description='''
     

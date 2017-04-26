@@ -42,8 +42,8 @@ from wrapper import Spoonacular
 
 x = Spoonacular('API_KEY')
 
-get_recipe_by_ingredients(ingredients=None)
-get_recipe_by_id(recipe_id=None)
+get_recipe_by_ingredients(ingredients='ingredient1,ingredient2,ingredient3')
+get_recipe_by_id(recipe_id='recipe_id')
 generate_meal_plan(**kwargs)
 map_ingredients_to_grocery(data)
 get_random_recipe(**kwargs)
@@ -57,13 +57,13 @@ from wrapper import Walmart
 x = Walmart('API_KEY')
 
 search_item(term)
-get_food_products(category_id='976759')
+get_food_products(category_id)
 product_recommendation(product_id)
 product_history(product_id)
 get_item_review(product_id)
-get_best_sellers(category_id='976759')
-get_rollback_items(category_id='976759')
-get_clearance_items(category_id='976759')
+get_best_sellers(category_id)
+get_rollback_items(category_id)
+get_clearance_items(category_id)
 store_locator(**kwargs)
 # kwargs examples for store_locator
 # city :string ('New York')
